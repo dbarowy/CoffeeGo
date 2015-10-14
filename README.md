@@ -10,6 +10,11 @@ E.g.,
     "The winner is:"
     "Amherst Coffee in Amherst"
 
+## Required libraries
+You need the `loaded_dice` gem installed to use this program.
+
+Install ala `gem install loaded_dice`.
+
 ## CSV format
 Your data should be in the following format:
 
