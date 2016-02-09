@@ -27,5 +27,5 @@ outcome = die.sample
 winning_row = coffee_data[outcome]
 
 # print result
-p "The winner is:"
-p "#{winning_row[0]} in #{winning_row[2]}"
+puts "The winner is:"
+puts "#{winning_row[0]} in #{winning_row[2]}"
