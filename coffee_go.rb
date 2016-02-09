@@ -15,13 +15,13 @@ CSV.foreach(csvfile, options) do |row|
 end
 
 # get weights
-weights = coffee_data.map { |row| row[1] }
+weights = coffee_data.each_with_index.map { |row,i| { i => row[1] } }.reduce(Hash.new, :merge)
 
 # create loaded die
-die = LoadedDie.new(*weights)
+die = LoadedDie::Sampler.new(weights)
 
 # roll!
-outcome = die.roll
+outcome = die.sample
 
 # index into coffee_data
 winning_row = coffee_data[outcome]

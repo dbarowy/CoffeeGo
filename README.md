@@ -13,7 +13,9 @@ E.g.,
 ## Required libraries
 You need the `loaded_dice` gem installed to use this program.
 
-Install ala `gem install loaded_dice`.
+Install ala `bundle install`.
+
+If you don't have Bundler, you'll have to do `gem install bundler` first.
 
 ## CSV format
 Your data should be in the following format:
