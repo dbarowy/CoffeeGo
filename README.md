@@ -7,8 +7,8 @@ This program takes a three-column CSV as its first and only argument and returns
 E.g.,
 
     $ ruby coffee_go.rb sample_data.csv
-    "The winner is:"
-    "Amherst Coffee in Amherst"
+    The winner is:
+    Amherst Coffee in Amherst
 
 ## Required libraries
 You need the `loaded_dice` gem installed to use this program.
